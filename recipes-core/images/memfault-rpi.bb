@@ -10,4 +10,5 @@ IMAGE_INSTALL += "\
 	memfault-device-info \
 	u-boot-env \
 	u-boot-fw-utils \
+	data-mount \
 "

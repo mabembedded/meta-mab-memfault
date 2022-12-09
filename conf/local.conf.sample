@@ -282,3 +282,7 @@ VIRTUAL-RUNTIME_initscripts = ""
 LICENSE_FLAGS_WHITELIST += " commercial_memfaultd commercial_memfault-core-handler"
 
 INHERIT += "rm_work"
+
+RPI_USE_U_BOOT = "1"
+ENABLE_UART = "1"
+KERNEL_IMAGETYPE = "uImage"
