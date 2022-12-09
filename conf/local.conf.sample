@@ -279,6 +279,6 @@ DISTRO_FEATURES_BACKFILL_CONSIDERED += "sysvinit"
 VIRTUAL-RUNTIME_init_manager = "systemd"
 VIRTUAL-RUNTIME_initscripts = ""
 
-LICENSE_FLAGS_ACCEPTED += " commercial_memfaultd commercial_memfault-core-handler"
+LICENSE_FLAGS_WHITELIST += " commercial_memfaultd commercial_memfault-core-handler"
 
 INHERIT += "rm_work"
