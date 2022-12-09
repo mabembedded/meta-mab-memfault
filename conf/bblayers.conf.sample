@@ -16,5 +16,6 @@ BBLAYERS ?= " \
   ${BSPDIR}/sources/meta-openembedded/meta-multimedia \
   ${BSPDIR}/sources/meta-raspberrypi \
   ${BSPDIR}/sources/memfault-linux-sdk/meta-memfault \
+  ${BSPDIR}/sources/meta-swupdate \
   ${BSPDIR}/sources/meta-memfault-rpi \
   "
